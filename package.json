@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon",
+    "serve": "nodemon",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,11 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
     "canvas": "^2.6.1",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "form-data": "^3.0.0",
     "konva": "^6.0.0",
+    "log4js": "^6.3.0",
+    "morgan": "^1.10.0",
     "uuid": "^8.1.0"
   }
 }

@@ -1,3 +1,4 @@
 {
-    "token": "...."
+    "token": "....",
+    "server": "http://localhost:1000"
 }
