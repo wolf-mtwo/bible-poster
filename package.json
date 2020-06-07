@@ -1,0 +1,22 @@
+{
+  "name": "facebook-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "canvas": "^2.6.1",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "konva": "^6.0.0",
+    "uuid": "^8.1.0"
+  }
+}
